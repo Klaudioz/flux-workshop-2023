@@ -11,7 +11,7 @@ spec:
     branch: main
   secretRef:
     name: flux-system
-  url: ssh://git@github.com/stefanprodan/flux-workshop-2023
+  url: ssh://git@github.com/klaudioz/flux-workshop-2023
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
